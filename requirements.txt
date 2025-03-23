@@ -13,3 +13,7 @@ torch_optimizer
 sox
 soxr
 moduleconf
+
+setuptools
+numpy
+cog
