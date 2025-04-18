@@ -9,6 +9,7 @@ from .Util import computeParamSize
 
 def readAudio(path,  normalize= True):
     import pydub
+    print("File path:", path)
     audio = pydub.AudioSegment.from_file(path)
     y = np.array(audio.get_array_of_samples())
     y = y.reshape(-1, audio.channels)
